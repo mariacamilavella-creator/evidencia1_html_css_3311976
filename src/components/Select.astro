@@ -18,9 +18,35 @@ const etiqueta = Astro.props.etiqueta;
 ---
 <label>{etiqueta}</label>
 <select>
-    <option>Cali</option>
-    <option>Bogota</option>
-    <option>Medellin</option>
-    <option>Cartagena</option>
+    <option id="cali">Cali</option>
+    <option id="bogota">Bogota</option>
+    <option id="medellin"> Medellin</option>
+    <option id="cartagena">Cartagena</option>
 
 </select>
+<style>
+    #bogota{
+        color:brown
+ }
+ select{
+    border:2px rgb(241, 241, 10) outset
+ }
+  #cali{
+    color:brown;
+  }
+  select{
+    border:2px rgb(165, 243, 9) dotted
+  }
+  #medellin{
+    color: brown;
+  }
+  select{
+    border:2px yellowgreen dotted
+  }
+  #cartagena{
+    color: brown;
+  }
+  select{
+    border:2px rgb(223, 96, 22) outset
+  }
+</style>
