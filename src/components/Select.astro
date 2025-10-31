@@ -1,0 +1,26 @@
+---
+// div : es una etiqueta abierta
+// tiene elementos dentro
+// permite especificar propiedades de ubicacion
+
+
+ //Definimos las propiedades
+ // que puede recibir el componente
+ interface Props {
+    etiqueta: string;
+    
+ }
+
+// crear una variable
+// para recibir el componente
+// Astro.prost = Los valores desde el control
+const etiqueta = Astro.props.etiqueta;
+---
+<label>{etiqueta}</label>
+<select>
+    <option>Cali</option>
+    <option>Bogota</option>
+    <option>Medellin</option>
+    <option>Cartagena</option>
+
+</select>
