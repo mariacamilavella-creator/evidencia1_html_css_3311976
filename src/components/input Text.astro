@@ -1,4 +1,5 @@
 ---
+import "./InputText.css";
  //Definimos las propiedades
  // que puede recibir el componente
  interface Props {
@@ -6,43 +7,23 @@
     
  }
 
-// crear una variable
-// para recibir el componente
-// Astro.prost = Los valores desde el control
-const etiqueta = Astro.props.etiqueta;
+ // crear una variable
+ // para recibir el componente
+ // Astro.prost = Los valores desde el control
+ const etiqueta = Astro.props.etiqueta;
 
----
+ ---
 
 
-<!-----
-Etiqueta input:
-se utiliza para los siguientes
-contoles:
--password
--checkbok
--radio button
--boton de envio
-ES ETIQUETA CERRADA
---- -->
-<label>{etiqueta}:</label>
-<input type="text" />
-<style>
-/*solo se puede poner aqui*/
-/*sintaxis css*/
-/*estilos para el input text*/
-/*selector de etiqueta:*/
-/* estilos aplicables a toda etiqueta*/
-/*señalada por el selector*/
-
-input[type="text"]{
-   background-color: rgb(60, 201, 226);
-   width: 400px;
-   height: 20px;
-   color: black;
-   border-color:rgb(17, 17, 17) ;
-   border-width: 3px;
-   border-style: solid;
-   border-radius: 5px;
-}
-
-</style>
+ <!-----
+ Etiqueta input:
+ se utiliza para los siguientes
+ contoles:
+ -password
+ -checkbok
+ -radio button
+ -boton de envio
+ ES ETIQUETA CERRADA
+ --- -->
+ <label>{etiqueta}:</label>
+ <input type="text" />

@@ -11,7 +11,7 @@ import ButtonSend
 
 ---
 <FormLayout>
-  <h2 slot="subtitulo"> Ingrese informacion</h2>
+  <h2 class= "subtitulo" slot="subtitulo"> Ingrese informacion</h2>
   <InputText 
   etiqueta="Nombre Completo"
   slot="caja-texto-nombre"
@@ -28,15 +28,22 @@ import ButtonSend
   etiqueta="selecione tipo de documento:"
   slot="grupo-radio"
   />
-<Select 
-etiqueta="seleccione ciudad"
-slot="select-ciudad"
-/>
-<ButtonSend
-etiqueta="Enviar"
+
+  <ButtonSend
+  etiqueta="Enviar"
 slot="boton-envio"
-/>
+  />
 </FormLayout>
+<style>
+  .subtitulo{
+    font-weight: 300;
+    font-size: 25px;
+    color: #0a0a0a;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:20px;
+  }
+</style>  
+
+<style>
+  font-family: Arial, Helvetica, sans-serif;
   
-
-

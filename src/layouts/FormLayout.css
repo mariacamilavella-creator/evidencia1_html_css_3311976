@@ -1,0 +1,28 @@
+.form{
+     display: block;
+     background-color: lightgray;
+     width: 400px;
+     border: 2px solid black;
+     margin: 20px auto;
+     border-radius: 15px;
+   }
+.titulo{
+    background-color: rgb(245, 245, 227);
+    text-align: center;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+
+}
+.boton-envio{
+     display: line;
+     background-color: rgb(8, 8, 8);
+     width: 40px;
+     border: 2px solid black;
+     margin: 20px 0px 30px 280px;
+     border-radius: 15px;
+     font-family: Arial, Helvetica, sans-serif;
+     
+    }

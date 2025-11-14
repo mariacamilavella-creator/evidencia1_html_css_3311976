@@ -17,48 +17,74 @@
 const etiqueta = Astro.props.etiqueta;
 ---
 <label>{etiqueta}</label>
-<div>
+<div class="rgb">
+  
     <div id="cedula">
-         <input 
-          type="radio"
+         <input class="radio-bnt" 
+         type="radio"
           name="rgb"
           id="radio1"
        />
-     <strong> CC </strong>
+     C.C
 </div>
-<br/>
+
 <div id="targeta">
-      <input 
+      <input class="radio-bnt" 
+
        type="radio"
        name="rgb"
        id="radio1"
      /> 
-     <strong> TI </strong>
+     TI
 </div>
-<br/>
+
 <div id="extrangeria">
-     <input 
+     <input class="radio-bnt"
        type="radio"
        name="rgb"
-       id="radio1"
+        id= "radio1"
      /> 
-     <strong> CE </strong>
-     </div>
+    C.E
+     
      <style>
-      
-      #cedula{
-        background-color: rgb(215, 133, 240);
-        display:inline;
+   
+
+      .rgb{
+        background-color: rgb(248, 246, 248);
+        border-width: 1px;
+        border-style: solid;
+        border-radius:5px;
+        margin:30px 0 10px 10px;
+        width:90%;
+        border-color: black;
+      }
+      #cedula{ font-family: Arial, Helvetica, sans-serif;}
+      #cedula .radio-bnt{
+          background-color: rgb(233, 37, 233);
+          display: inline-block;
+          width: 10px;
+          height: 10px;
+         
+   }
+        
+      #targeta{ font-family: Arial, Helvetica, sans-serif;}
+        #targeta .radio-bnt{
+          background-color: rgb(248, 246, 248);
+         display: inline-block;
+          width: 10px;
+          height: 10px;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        #extrangeria{ font-family: Arial, Helvetica, sans-serif;}
+        #extrangeria .radio-bnt{
+         background-color: rgb(248, 246, 248);
+         display: inline-block;
+          width: 10px;
+          height: 10px;
+         font-family: Arial, Helvetica, sans-serif;
         }
         
-      #targeta{
-        background-color: rgb(129, 248, 49);
-        display:inline;
-        }
-        #extrangeria{
-        background-color: rgb(148, 20, 26);
-        display:inline;
-        }
       
      </style>
 </div>
+ 
