@@ -5,7 +5,7 @@
      border: 2px solid black;
      margin: 20px auto;
      border-radius: 15px;
-     box-shadow: 14px 14px 5px 1px rgba(155, 150, 150, 0.23);
+     box-shadow: 5px 5px 5px 5px rgba(155, 150, 150, 0.23);
    }
 .titulo{
     background-color: rgb(245, 245, 227);
@@ -19,9 +19,9 @@
 }
 .boton-envio{
      display: line;
-     background-color: rgb(8, 8, 8);
+     background-color: rgb(204, 195, 195);
      width: 40px;
-     border: 2px solid black;
+     border: 2px solid rgb(10, 8, 8);
      margin: 20px 0px 30px 280px;
      border-radius: 15px;
      font-family: Arial, Helvetica, sans-serif;
